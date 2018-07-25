@@ -107,6 +107,7 @@ The E1.31 Packet class contains a number of useful setter methods:
 * `setOption(option, state)`: sets the state of a framing option into the frame layer.
 * `setUniverse(universe)`: sets the DMX universe into the frame layer.
 * `setSlotsData(buffer)`: sets the DMX slots data into the DMP layer.
+* `setStartCode(startCode)`: sets the start code into the DMP layer.
 
 Also the following getter methods are provided:
 
@@ -117,6 +118,7 @@ Also the following getter methods are provided:
 * `getOption(option)`: gets the state of a framing option from the frame layer.
 * `getUniverse()`: gets the DMX universe from the frame layer.
 * `getSlotsData()`: gets the DMX slots data from the DMP layer.
+* `getStartCode()`: gets the E1.31 start code from the DMP layer.
 
 Available E1.31 framing options are:
 
